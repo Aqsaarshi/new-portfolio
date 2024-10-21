@@ -10,14 +10,10 @@ const Contact = () => {
               width="100%"
               height="100%"
               className="absolute inset-0"
-              frameBorder={0}
-              title="map"
-              marginHeight={0}
-              marginWidth={0}
+              frameBorder="0"
+              title="Google Map Location"
               scrolling="no"
-              src="
-              https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924247.142545871!2d66.49599056601762!3d25.191740544180128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1729428400509!5m2!1sen!2s"
-              style={{ filter: " contrast(1.2) opacity(0.4)" }}
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924247.142545871!2d66.49599056601762!3d25.191740544180128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1729428400509!5m2!1sen!2s"
             />
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
               <div className="lg:w-1/2 px-6">

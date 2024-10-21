@@ -1,8 +1,8 @@
 import React from "react";
-import { FaYoutube } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaYoutube, FaLinkedin, FaInstagramSquare } from "react-icons/fa";
+import aqsapic from "../public/assets/aqsapic.jpg"; // Import the image
 import Image from "next/image";
+
 const Footer = () => {
   return (
     <div className="bg-slate-400	">
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <Image
-              src={require("../public/assets/aqsapic.jpg")} // Accessing from public directory
+              src={aqsapic} // Use the imported image
               alt="AQSA ARSHAD"
               width={100}
               height={100}
@@ -28,6 +28,7 @@ const Footer = () => {
               className="text-black mx-2"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Aqsa's YouTube Channel"
             >
               <FaYoutube size={24} />
             </a>
@@ -36,6 +37,7 @@ const Footer = () => {
               className="text-black mx-2"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Aqsa's LinkedIn Profile"
             >
               <FaLinkedin size={24} />
             </a>
@@ -44,6 +46,7 @@ const Footer = () => {
               className="text-black mx-2"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Aqsa's Instagram Profile"
             >
               <FaInstagramSquare size={24} />
             </a>
