@@ -1,4 +1,5 @@
 import Image from "next/image";
+import projectImg from "../public/assets/project.png";
 import React from "react";
 
 const Project = () => {
@@ -13,17 +14,17 @@ const Project = () => {
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them man bun deep jianbing selfies heirloom.
+              haven not heard of them man bun deep jianbing selfies heirloom.
             </p>
           </div>
           <div className="flex justify-center bg-slate-400	">
             {/*project*/}
-            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor pointer ">
+            <div className="lg:w-1/3 sm:w-1/2 p-4 cursor-pointer">
               <div className="flex relative ">
                 <Image
-                  alt="gallery"
+                  alt="Project Thumbnail" // Updated to be more descriptive
                   className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../app/public/assets/project.png")}
+                  src={projectImg}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 ">
                   <h2 className="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">
@@ -40,7 +41,8 @@ const Project = () => {
                   </p>
                   <a
                     target="_blank"
-                    href={"https://resumebuilder-byaqsaarshad.vercel.app/"}
+                    href="https://resumebuilder-byaqsaarshad.vercel.app/"
+                    rel="noopener noreferrer"
                   >
                     <p className="leading-relaxed text-blue-500 mb-1 underline cursor-pointer">
                       {" "}

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import aqsapic from "../public/assets/aqsapic.jpg";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => {
@@ -16,8 +17,8 @@ const Hero = () => {
                 strings: [
                   "Web Developer",
                   "Graphic Designer",
-                  "Data Analysis",
-                  "Video Editer",
+                  "Data Analyst",
+                  "Video Editor",
                   "Digital Marketing",
                   "Sales Representative",
                 ],
@@ -28,15 +29,15 @@ const Hero = () => {
           </h1>
           <div className="w-[100px] h-[2px] bg-purple-700"> </div>
           <p className="mb-8 leading-relaxed text-black	">
-            "Hello, I’m Aqsa, a GIAIC student specializing in Artificial
+            Hello, Iam Aqsa, a GIAIC student specializing in Artificial
             Intelligence, Web3.0, and Metaverse technologies. I have hands-on
-            experience with HTML, CSS, and TypeScript, and I’m currently
+            experience with HTML, CSS, and TypeScript, and I am currently
             expanding my expertise by learning Next.js. My passion lies in
             building innovative solutions at the intersection of modern web
-            development and emerging technologies."
+            development and emerging technologies.
           </p>
           <div className="flex justify-center">
-            <a href={"#Contact"}>
+            <a href="#Contact">
               <button className="inline-flex text-white bg-purple-900 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
                 Contact
               </button>
@@ -45,11 +46,11 @@ const Hero = () => {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <Image
-            className="object-cover object-center rounded mx-auto w-[15 rem]"
+            className="object-cover object-center rounded mx-auto w-[15rem]"
             alt="hero"
-            width="300"
-            height="300"
-            src={require("../public/assets/aqsapic.jpg")}
+            width={300}
+            height={300}
+            src={aqsapic}
           />
         </div>
       </div>

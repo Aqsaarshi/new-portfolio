@@ -1,7 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { FaBeer } from "react-icons/fa";
-import { MdDownload } from "react-icons/md";
+import aqsapic from "../public/assets/aqsapic.jpg";
+{
+  /*import { FaBeer } from "react-icons/fa";*/
+}
+{
+  /*import { MdDownload } from "react-icons/md";*/
+}
 const Navbar = () => {
   return (
     <div className="bg-white z-50 sticky top-0">
@@ -9,7 +14,7 @@ const Navbar = () => {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <Image
-              src={require("../public/assets/aqsapic.jpg")} // Accessing from public directory
+              src={aqsapic}
               alt="AQSA ARSHAD"
               width={100}
               height={100}
@@ -19,19 +24,19 @@ const Navbar = () => {
             <span className="ml-3 text-xl text-white	">AQSA ARSHAD </span>
           </a>
           <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a href={"#"} className="mr-5 hover:text-purple-900">
+            <a href="#" className="mr-5 hover:text-purple-900">
               Home
             </a>
-            <a href={"#About"} className="mr-5 hover:text-purple-900">
+            <a href="#About" className="mr-5 hover:text-purple-900">
               About
             </a>
             {/*<a href={"#"} className="mr-5 hover:text-purple-900">
               Skills
             </a>*/}
-            <a href={"#Project"} className="mr-5 hover:text-purple-900">
+            <a href="#Project" className="mr-5 hover:text-purple-900">
               Project
             </a>
-            <a href={"#Contact"} className="mr-5 hover:text-purple-900">
+            <a href="#Contact" className="mr-5 hover:text-purple-900">
               Contact
             </a>
           </nav>

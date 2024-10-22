@@ -1,6 +1,7 @@
 import React from "react";
 import { MdDownload } from "react-icons/md";
 import Image from "next/image";
+import cvPic from "../public/assets/cvpic.png";
 
 const About = () => {
   return (
@@ -9,11 +10,11 @@ const About = () => {
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
-              className="object-cover object-center rounded mx-auto w-[15 rem]"
+              className="object-cover object-center rounded mx-auto w-[15rem]"
               alt="hero"
               width="300"
               height="300"
-              src={require("../public/assets/cvpic.png")}
+              src={cvPic}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -22,11 +23,11 @@ const About = () => {
               <br className="hidden lg:inline-block" />
             </h1>
             <p className="mb-8 leading-relaxed text-black">
-              Hi, I’m Aqsa! I’m currently pursuing studies in Artificial
+              Hi, I am Aqsa! I am currently pursuing studies in Artificial
               Intelligence, Web3.0, and Metaverse through GIAIC. With a
               background in web development, I have hands-on experience in HTML,
-              CSS, TypeScript, and I’m currently expanding my skill set with
-              Next.js. I’ve also developed practical knowledge in Excel,
+              CSS, TypeScript, and I am currently expanding my skill set with
+              Next.js. I have also developed practical knowledge in Excel,
               marketing, and video editing through various projects and
               internships. Recently, I built a Resume Builder project,
               showcasing my ability to design functional web tools.
