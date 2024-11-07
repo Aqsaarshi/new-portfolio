@@ -12,9 +12,9 @@ const Project = () => {
               My Projects
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
-              "A web app that allows users to create and customize professional
+              A web app that allows users to create and customize professional
               resumes with ease. Built with Next.js and responsive design for
-              optimal user experience."
+              optimal user experience.
             </p>
           </div>
           <div className="flex justify-center bg-slate-400	">
