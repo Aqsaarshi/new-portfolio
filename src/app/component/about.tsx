@@ -1,7 +1,7 @@
 import React from "react";
 import { MdDownload } from "react-icons/md";
 import Image from "next/image";
-import cvPic from "../public/assets/cvpic.png";
+import cvpic from "../public/assets/cvpic.png";
 
 const About = () => {
   return (
@@ -14,7 +14,7 @@ const About = () => {
               alt="hero"
               width="300"
               height="300"
-              src={cvPic}
+              src={cvpic}
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
@@ -38,7 +38,7 @@ const About = () => {
               with PowerPoint.
             </p>
             <div className="flex justify-center"></div>
-            <a href="/assets/CV.pdf" download="CV.pdf">
+            <a href="/assets/cv.pdf" download>
               <button className="ml-4 inline-flex text-white bg-purple-900 border-0 py-2 px-6 focus:outline-none hover:bg-purple-700 hover:scale-105 transition-transform duration-300 rounded text-lg">
                 View CV
                 <MdDownload className="text-xl ml-2" />

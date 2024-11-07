@@ -27,14 +27,15 @@ const Navbar = () => {
             <a href="#" className="mr-5 hover:text-purple-900">
               Home
             </a>
-            <a href="#About" className="mr-5 hover:text-purple-900">
-              About
-            </a>
+
             {/*<a href={"#"} className="mr-5 hover:text-purple-900">
               Skills
             </a>*/}
             <a href="#Project" className="mr-5 hover:text-purple-900">
               Project
+            </a>
+            <a href="#About" className="mr-5 hover:text-purple-900">
+              About
             </a>
             <a href="#Contact" className="mr-5 hover:text-purple-900">
               Contact

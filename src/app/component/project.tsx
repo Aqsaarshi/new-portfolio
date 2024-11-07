@@ -12,9 +12,9 @@ const Project = () => {
               My Projects
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base ">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven not heard of them man bun deep jianbing selfies heirloom.
+              "A web app that allows users to create and customize professional
+              resumes with ease. Built with Next.js and responsive design for
+              optimal user experience."
             </p>
           </div>
           <div className="flex justify-center bg-slate-400	">
