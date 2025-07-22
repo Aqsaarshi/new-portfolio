@@ -19,21 +19,21 @@ const About = () => {
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-6">About Me</h2>
           <p className="text-base text-black leading-relaxed max-w-xl mx-auto md:mx-0 mb-6">
-            Hi, I am Aqsa! I'm currently studying Artificial Intelligence,
-            Web3.0, and Metaverse at GIAIC. I'm a passionate Full Stack
+            Hi, I am Aqsa! I am currently studying Artificial Intelligence,
+            Web3.0, and Metaverse at GIAIC. I am a passionate Full Stack
             Developer with hands-on experience in building dynamic and
             responsive web applications using HTML5, CSS3, JavaScript (ES6+),
             TypeScript, React.js, and Next.js (13 & 14). I specialize in
             creating clean and scalable user interfaces with Tailwind CSS and
             integrating backend services using Firebase, RESTful APIs, mockAPI,
-            and Sanity CMS. I'm currently exploring the integration of AI agents
-            using OpenAI tools such as Agent SDK, Chainlit, and custom handlers.
-            With a strong command over Git, GitHub, Postman, Vercel, and the
-            command-line interface, I ensure efficient development workflows. My
-            background also includes experience in UI/UX design with Figma, and
-            I take pride in clear technical communication, problem-solving, and
-            self-driven learning. I'm committed to building intuitive digital
-            solutions and continuously expanding my skill set.
+            and Sanity CMS. I am currently exploring the integration of AI
+            agents using OpenAI tools such as Agent SDK, Chainlit, and custom
+            handlers. With a strong command over Git, GitHub, Postman, Vercel,
+            and the command-line interface, I ensure efficient development
+            workflows. My background also includes experience in UI/UX design
+            with Figma, and I take pride in clear technical communication,
+            problem-solving, and self-driven learning. Iam committed to building
+            intuitive digital solutions and continuously expanding my skill set.
           </p>
 
           <a

@@ -2,16 +2,16 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion"; // 🆕 Import
+import type { Variants } from "framer-motion";
 
 import project from "../public/assets/project.png";
 import comforty from "../public/assets/comforty.png";
 import ecommerce from "../public/assets/ecommerce.png";
 import ecommerce2 from "../public/assets/ecommerce2.png";
 
-const fadeUpVariant = {
+const fadeUpVariant: Variants = {
   hidden: { opacity: 0, y: 60 },
-  visible: (i: number = 1): any => ({
-    // <- ✅ Add ": any"
+  visible: (i: number = 1) => ({
     opacity: 1,
     y: 0,
     transition: {
