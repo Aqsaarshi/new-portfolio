@@ -20,7 +20,7 @@ const Footer = () => {
             <span className="ml-3 text-xl">AQSA ARSHAD </span>
           </a>
           <p className="text-sm text-black sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-            © 2024 AQSA ARSHAD —
+            © 2025 AQSA ARSHAD —
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
             <a

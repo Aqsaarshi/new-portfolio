@@ -9,7 +9,9 @@ export default function Home() {
     <div className="bg-slate-500">
       <Hero />
       <Project />
+
       <About />
+
       <Contact />
     </div>
   );
